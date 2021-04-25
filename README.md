@@ -43,11 +43,11 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 ### Goals
 
-- _Lorem ipsum, dolor sit amet,_
-- _consectetur adipiscing elit._
-- _Phasellus dapibus fermentum risus vitae bibendum._
-- _Integer vel ipsum mollis odio sollicitudin ornare eu vel ex._
-- _etc._
+- Allow a user to select a gym.
+- Once inside you can click on the gyms details section and it will have an option to show that gyms TOP trainer! 
+- Once inside the Gyms Trainers folder you can select on that trainer to get more details on them! 
+- You can click on that trainer to see their clients... 
+- you can then become a client of that trainer, update your information, view each client in detail, and destroy a client! (Full Crud) 
 
 <br>
 
