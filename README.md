@@ -126,9 +126,7 @@ src
 | MVP Requirment Check|    L     |     2 hrs      |     TBD    |     | TBD
 | Final Edits/TouchUps|    H     |     3 hrs      |    TBD     |     |   TBD     |
 | Final Edits for CSS |    H    |     3 hrs      |    TBD     |     |   TBD     |
-
-
-| TOTAL               |          |     35 hrs      |     TBD     |     TBD     |
+| TOTAL               |     -     |     35 hrs      |     TBD     |     TBD     |
 
 
 
