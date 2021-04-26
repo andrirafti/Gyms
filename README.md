@@ -97,6 +97,11 @@ src
       |__ GymDetail.jsx
       |__ Trainer.jsx
       |__ TrainerDetail.jsx
+      |__ Client.jsx
+      |__ ClientDetail.jsx
+      |__ ClientEdit.jsx
+      |__ ClientCreate.jsx
+      
 |__ services/
       |__ api-config.js
       |__ clients.js
