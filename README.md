@@ -4,9 +4,8 @@ Select a gym and then pick the trainer you wish to train them!
 Are you a new client? Sign up with your selected trainer! 
 
 
-> The Project Planning section **should be completed** for your project pitch with instructors.
->
-> To ensure correct Markdown, copy and paste the raw template code into your project repo README file. Remove ALL template instructions and replace with your project details.
+
+
 
 - [Overview](#overview)
 - [MVP](#mvp)
@@ -28,18 +27,18 @@ Are you a new client? Sign up with your selected trainer!
 ## Overview
 
 _**Project Title** 
-Gyms Near You 
+Gyms 
 
 
 <br>
 
 ## MVP
 
-> The Minimum Viable Product should be a well-planned, easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
+FULL Crud BACKEND
+Full Crud Front End.
+Minimum 8 components front end
+Minimum 1 association with an extra backend table as well.
 
-_The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
-
-<br>
 
 ### Goals
 
@@ -53,17 +52,6 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 ### Libraries and Dependencies
 
-> Use this section to list all supporting libraries and dependencies, and their role in the project. Below is an example - this needs to be replaced!
-
-|     Library      | Description                                |
-| :--------------: | :----------------------------------------- |
-|      React       | _Lorem ipsum dolor sit amet, consectetur._ |
-|   React Router   | _Lorem ipsum dolor sit amet, consectetur._ |
-| React SemanticUI | _Lorem ipsum dolor sit amet, consectetur._ |
-|     Express      | _Lorem ipsum dolor sit amet, consectetur._ |
-|  Express Router  | _Lorem ipsum dolor sit amet, consectetur._ |
-
-<br>
 
 ### Client (Front End)
 
@@ -71,87 +59,89 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 > Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
 
-![Dummy Link](url)
+!https://whimsical.com/gyms-Y25rwSCnwiC8NSX4gqEqyH
 
 - Desktop Landing
 
-![Dummy Link](url)
-
-- Desktop Hero
-
-![Dummy Link](url)
-
-- Resource Index
-
-![Dummy Link](url)
-
-- Resource Show
-
-![Dummy Link](url)
+!https://whimsical.com/gyms-Y25rwSCnwiC8NSX4gqEqyH
 
 - Tablet Resource Index
 
-![Dummy Link](url)
+!https://whimsical.com/gyms-Y25rwSCnwiC8NSX4gqEqyH
 
 - Mobile Resource Index
 
 #### Component Tree
 
-> Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. Include a link to your component tree
-
-[Component Tree Sample](https://gist.git.generalassemb.ly/davidtwhitlatch/414107e2560ae0bb65e233570f2fe056#file-component-tree-png)
+https://whimsical.com/gym-architecture-G6sU4WRRWxd4V5Dr1dgqXL
 
 #### Component Architecture
 
-> Use this section to define your React components and the data architecture of your app. This should be a reflection of how you expect your directory/file tree to look like. 
+
 
 ``` structure
 
 src
-|__ assets/
-      |__ fonts
-      |__ graphics
+|__ imageFolder/
       |__ images
-      |__ mockups
 |__ components/
-      |__ Header.jsx
-      |__ Trainers.jsx
-      |__ Gyms.jsx
-      |__ Clients.jsx
+      |__ TrainerShow.jsx
+      |__ GymShow.jsx
+      |__ ClientShow.jsx
+      |__ Nav.jsx
+      |__ Footer.jsx
+|__ container/
+      |__ GymsContainer.jsx
+|__ screens/
+      |__ Gym.jsx
+      |__ GymDetail.jsx
+      |__ Trainer.jsx
+      |__ TrainerDetail.jsx
 |__ services/
+      |__ api-config.js
+      |__ clients.js
+      |__ gyms.js
+      |__ trainers.js
+|__ App.js
+|__ Index.js
+|__ App.css
 
 ```
 
 #### Time Estimates
 
-> Use this section to estimate the time necessary to build out each of the components you've described above.
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
+| Add Contact Form    |    L     |     3 hrs      |     TBD    |     | TBD
+| Create CRUD Actions |    H     |     5 hrs      |     TBD    |     |TBD   |
+| Create BackEnd CRUD |    H     |     5 hrs      |     TBD    |     | TBD
+| CSS Creation.       |    H     |     8 hrs      |     TBD    |     | TBD     |
+| Post MVP (filter..) |    M     |     3 hrs      |     TBD    |     | TBD
+| Debugging For error |    H     |     3 hrs      |     TBD    |     | TBD     |
+| MVP Requirment Check|    L     |     2 hrs      |     TBD    |     | TBD
+| Final Edits/TouchUps|    H     |     3 hrs      |    TBD     |     |   TBD     |
+| Final Edits for CSS |    H    |     3 hrs      |    TBD     |     |   TBD     |
 
-> _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
 
-<br>
+| TOTAL               |          |     35 hrs      |     TBD     |     TBD     |
+
+
 
 ### Server (Back End)
 
 #### ERD Model
 
-> Use this section to display an image of a computer generated ERD model. You can use draw.io, Lucidchart or another ERD tool.
+https://app.diagrams.net/#Handrirafti%2FGyms%2Fmain%2FUntitled%20Diagram.drawio
 
-[ERD Sample](https://drive.google.com/file/d/1kLyQTZqfcA4jjKWQexfEkG2UspyclK8Q/view)
-<br>
 
-***
 
 ## Post-MVP
 
-> Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
+Animation CSS Entrance Page
+Loading Animations
+Filtering Gyms/Trainers/Clients by name.
 
-***
 
 ## Code Showcase
 
