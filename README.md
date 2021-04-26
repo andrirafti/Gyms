@@ -57,7 +57,6 @@ Minimum 1 association with an extra backend table as well.
 
 #### Wireframes
 
-> Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
 
 !https://whimsical.com/gyms-Y25rwSCnwiC8NSX4gqEqyH
 
