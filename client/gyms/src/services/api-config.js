@@ -1,7 +1,6 @@
 import axios from 'axios';
-//Since we make axios.create into api we will be doing
-//localhost:3000/api/________
-// to call stuff 
+//originally keep baseURL=localhost:3000
+//make sure to grab the heroku.com link not heroku.api 
 const baseURL=process.env.NODE_ENV === 'production' ? /* link to your heroku app. Example:*/'https://gym-trainer-api.herokuapp.com/' : 'http://localhost:3000'
 const api = axios.create({
   baseURL: baseURL
