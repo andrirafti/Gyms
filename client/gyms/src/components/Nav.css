@@ -1,0 +1,14 @@
+
+*{
+  margin:0;
+  padding:0;
+}
+.navbar-logo{
+  padding:15px;
+  color: #fff;
+  pointer-events: none;
+}
+.navbar-mainbg{
+  background-color: #000000;
+  padding: 0px
+}

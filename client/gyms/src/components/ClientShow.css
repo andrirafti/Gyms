@@ -1,0 +1,140 @@
+.container2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  width: 450px ;
+  transform-style: preserve-3d;
+  margin:auto;
+  width:50%;
+  
+  
+}
+.container2 .box2{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 40px;
+  background: #232323;
+  border-radius: 20px;
+  transform-style: preserve-3d;
+  
+  
+}
+.box2{
+  display: grid;
+  text-align: left;
+  align-items: stretch;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+  width: 70%;
+  align-self: center;
+  padding: 50px 20px;
+  justify-content: center;
+  position: center;
+  background-color: rgba(153, 178, 234, 0.7);
+  justify-content: center;
+  margin: 0 auto;
+}
+.container2 .box2::before{
+  content: 'Client';
+  position: absolute;
+  top: 20px;
+  left:-20px;
+  font-size: 6em;
+  font-weight: 900;
+  color: red;
+  font-style: italic;
+  opacity: 0;
+  transition: 0.5s;
+}
+.container2 .box2::after{
+  content: 'Client';
+  position: absolute;
+  bottom: 20px;
+  right:-20px;
+  font-size: 6em;
+  font-weight: 900;
+  color: blue;
+  font-style: italic;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.container2 {
+  border-radius:40%
+}
+
+.container2 .box2:hover::before{
+  opacity: 0.3;
+}
+.container2 .box2:hover::after{
+opacity: 0.5;
+}
+.container2 .box2 .name{
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: #fff;
+  width:100% ;
+  transform-style: preserve-3d;
+  transform:translate3d(0,0,75px);
+  transition: 0.5s;
+  opacity: 0;
+  z-index: 10;
+}
+.container2 .box2:hover .name{
+  top: 40px;
+  opacity: 1;
+
+}
+.container2 .box2 .circle{
+  position: absolute;
+  top:50%;
+  left:50%;
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  transition: 0.5s;
+  background: #ffff;
+  transform-style: preserve-3d;
+  z-index: 10;
+  transform:translate3d(-50%,-50%,50px)
+
+}
+.container2 .box2  .product{
+position: absolute;
+top:50%;
+left:50%;
+max-width: 300px;
+height:200px;
+transition: 0.5s;
+font-size:50px;
+color:white;
+z-index: 11;
+transition: 0.5s;
+transform-style: preserve-3d;
+transform: translate3d(-50%,-50%,0px) rotate(0deg);
+
+}
+
+@media only screen and (max-width: 418px) {
+  .container2 .box2{
+    margin:15px;
+  }
+  .container2 .box2::after{
+    font-weight:700;
+    font-size: 4em;
+    bottom: 20px;
+  right:20px;
+  }
+  .container2 .box2::before{
+    font-weight:700;
+    font-size: 4em;
+    top:20px;
+    left:10px;
+  }
+  
+  }

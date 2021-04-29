@@ -1,0 +1,285 @@
+.App {
+  text-align: center;
+}
+
+.Loading{
+  width:400px
+}
+body{
+  background-image: url("https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_569,q_60,w_650/v1/clients/goldenislesga/Play_Beaches_ea9587a7-21cc-4228-bdae-e5dfb3218d4d.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+/*  NAVS */
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+ background-color:#00FFCB;
+  /* padding: 10px 20px; */
+  padding-bottom: -30px;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 375px) {
+  .nav{
+    margin:0px;
+  }
+  
+  }
+.nav:hover{
+  opacity: 1;
+}
+
+.navOptions{
+  /* justify-content: space-between;
+  display:inline-flex;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: black; */
+  margin-left: 60px;
+  margin-right: 60px;
+  justify-content: space-between;
+  border: 1px solid black;
+    background: #333;
+    color: #ccc;
+    width: 200px;
+    height: 60px;
+    border: 0;
+    font-size: 18px;
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+    transition: .6s;
+    overflow: hidden;}
+    .navOptions:focus{
+      outline: 0;
+    }
+    .navOptions:before{
+      content: '';
+      display: block;
+      position: absolute;
+      background: rgba(255,255,255,0.5);
+      width: 60px;
+      height: 100%;
+      left: 0;
+      top: 0;
+      opacity: .5;
+      filter: blur(30px);
+      transform: translateX(-100px)  skewX(-15deg);
+    }
+    .navOptions:after{
+      content: '';
+      display: block;
+      position: absolute;
+      background: rgba(255,255,255,0.2);
+      width: 30px;
+      height: 100%;
+      left: 30px;
+      top: 0;
+      opacity: 0;
+      filter: blur(5px);
+      transform: translateX(-100px) skewX(-15deg);
+    }
+    .navOptions:hover{
+      background: #338033;
+      cursor: pointer;}
+      
+
+.links {
+  display: inline;
+  font-size: 10px;
+  margin-bottom:10px;
+  margin-left: 20px;
+  width: 100%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-decoration: none;
+  
+}
+.links :hover {
+  text-decoration: none;
+}
+#appName {
+  margin-left: 20px;
+  font-size: 30px;
+  font-family: 'Shojumaru';
+  color:black;
+}
+
+/*  Footers */
+.flex-wrapper{
+  display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    position:absolute;
+}
+.footer{
+  width: 100%;
+  padding: 10px 0;
+  margin: auto;
+  height:35px;
+ bottom:0px;
+  opacity: 0.6;
+  position: fixed;
+  background-color: #00FFCB;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+ 
+
+}
+.footer:hover{
+  opacity: 1;
+
+}
+.footer-link{
+  color: black;
+  text-decoration: none;
+  
+}
+.footer-link:hover{
+  color:white
+}
+.container{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  height:400px;
+  width:400px;
+}
+.container2{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  height:400px;
+  width:400px;
+}
+/* images */
+
+.glow-list h3{
+  align-self: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin:  2px;
+}
+
+
+.card {
+  margin:auto;
+  width:50%;
+ 
+
+}
+@media only screen and (max-width: 375px) {
+  .card{
+    margin:0px;
+  }
+
+  
+  }
+.card img{
+  width: 300px;
+}
+/* Btns*/
+.smbt:hover{
+  width: 200px;
+}
+.btnupdate{
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: border-color .15s
+}
+
+
+
+.search{
+  padding: 4px;
+  margin-bottom: 75px;
+  width: 50%;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+/* Special Button CSS */
+.card button{
+  min-width: 300px;
+  min-height: 60px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #4FD1C5;
+background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  margin-bottom:20px;
+}
+.card button::before{
+  content: '';
+  border-radius: 1000px;
+  min-width: calc(300px + 12px);
+  min-height: calc(60px + 12px);
+  border: 6px solid #00FFCB;
+  box-shadow: 0 0 60px rgba(0,255,203,.64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+ 
+}
+.card button:hover,.card button:focus{
+  color: #313133;
+  transform: translateY(-6px);
+}
+.card button:hover::before,.card button:focus::before{
+  opacity: 1;
+}
+.card button::after{
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  border: 6px solid #00FFCB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+.card button:hover::after,.card button:focus::after{
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+/* Special Button CSS ABOVE */ 
+.gym-list2{
+  width:0
+}
