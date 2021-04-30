@@ -1,6 +1,7 @@
 .HomePage{
-  margin-bottom: 312px;
-  width:45%
+  margin:auto;
+  width:45%;
+  margin-bottom: 332px;
 }
 @media only screen 
     and (device-width: 390px) 
@@ -19,5 +20,7 @@
    width: auto;
    
  }
- 
+ .Tilt{
+   
+ }
 }
