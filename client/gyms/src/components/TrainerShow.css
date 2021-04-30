@@ -136,7 +136,7 @@ transform-style: preserve-3d;
 transform: translate3d(-50%,-50%,0px) rotate(0deg)
 }
 .container3 .box3 .product:hover{
-  transform: scale(1.2);
+  transform: translate3d(-30%,-50%,0px)
 }
 
 @media only screen and (max-width: 418px) {
