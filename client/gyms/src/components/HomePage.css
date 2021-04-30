@@ -2,9 +2,14 @@
   margin:auto;
   width:45%
 }
-@media only screen and (max-width: 418px) {
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) {
  .HomePage{
-   margin-right: 300px;
+   width:100%;
+    width:220px;
+    margin: auto;
    
  }
 }
