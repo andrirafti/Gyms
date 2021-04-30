@@ -143,10 +143,11 @@ transform: translate3d(-50%,-50%,0px) rotate(0deg)
 @media only screen and (max-width: 418px) {
   .container3{
     width:100%;
-    width:220px;
+    width:320px;
     }
   .container3 .box3{
-    width: 80%;
+    width: 100%;
+    width:300px;
     margin-bottom: 240px;
   }
   .container3 .box3::after{
