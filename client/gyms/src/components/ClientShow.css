@@ -124,7 +124,10 @@ transform: translate3d(-50%,-50%,0px) rotate(0deg);
     and (device-height: 844px) 
     and (-webkit-device-pixel-ratio: 3) {
       .container2 .box2{
-        margin:15px;
+        margin:20px;
+        width: 80%;
+        width:230px;
+        height:260px;
       }
       .container2 .box2::after{
         font-weight:700;
@@ -149,7 +152,8 @@ transform: translate3d(-50%,-50%,0px) rotate(0deg);
   .container2 .box2{
     margin:15px;
     width: 90%;
-    width:170px
+    width:230px;
+    height:260px;
   }
   .container2 .box2::after{
     font-weight:700;
