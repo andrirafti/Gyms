@@ -133,7 +133,10 @@ transform-style: preserve-3d;
 transform: translate3d(-50%,-50%,0px) rotate(0deg)
 }
 
-@media only screen and (max-width: 428px) {
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) {
   .container{
     width:100%;
     width:220px;
