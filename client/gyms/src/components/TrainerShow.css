@@ -146,8 +146,7 @@ transform: translate3d(-50%,-50%,0px) rotate(0deg)
     width:200px;
     }
   .container3 .box3{
-    width: 100%;
-    width:150px;
+    width:200px;
     margin-bottom: 240px;
   }
   .container3 .box3::after{
