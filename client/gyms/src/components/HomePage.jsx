@@ -15,8 +15,8 @@ const HomePage = () => {
   return (
     <div className="HomePage">
       <Tilt className="Tilt" options={{max:25,speed:400,glare:false}}>
-      <h1>Welcome to NYCS top gyms list!</h1> 
-      <p>Please click <a href="https://personal-training-gyms.netlify.app/gyms">here</a> to view some of the top gyms!</p>
+      <h1>Welcome to NYCS top gym's list!</h1> 
+      <p>Please click  "All Gyms" to continue!</p>
       </Tilt>
     </div>
   )
