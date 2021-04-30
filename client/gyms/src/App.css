@@ -188,16 +188,16 @@ body,html{
 .card .goal{
   margin: 10px;
 }
-@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 375px) {
   .card{
     margin-left:auto;
   margin-right: auto;
   margin-bottom:200px;
   }
-}
+} */
 @media only screen 
-  and (device-width: 390px) 
-  and (device-height: 844px) 
+  and (max-width: 440px) 
+  and (max-device-height: 844px) 
   and (-webkit-device-pixel-ratio: 3) {
 .card{
  width: auto;
