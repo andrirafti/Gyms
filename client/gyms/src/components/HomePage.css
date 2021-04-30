@@ -7,9 +7,7 @@
     and (device-height: 844px) 
     and (-webkit-device-pixel-ratio: 3) {
  .HomePage{
-   width:80%;
-    
-    margin-left:100px;
+   width: auto;
    
  }
 }
@@ -18,8 +16,7 @@
     and (device-height: 812px) 
     and (-webkit-device-pixel-ratio: 3) {
  .HomePage{
-   margin-right: 100px;
-   width: 100px;
+   width: auto;
    
  }
 }
