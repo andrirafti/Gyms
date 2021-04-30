@@ -137,6 +137,7 @@ transform: translate3d(-50%,-50%,0px) rotate(0deg)
   .container{
     width:100%;
     width:220px;
+    margin-left: 20px;
   }
   .container .box{
     margin:15px;
