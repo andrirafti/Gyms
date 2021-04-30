@@ -8,8 +8,8 @@
     and (-webkit-device-pixel-ratio: 3) {
  .HomePage{
    width:100%;
-    width:220px;
-    margin: auto;
+    width:180px;
+    margin-left:300px;
    
  }
 }
