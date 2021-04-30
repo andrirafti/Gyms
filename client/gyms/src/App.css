@@ -168,14 +168,14 @@ body,html{
   height:400px;
   width:400px;
 }
-/* .container3{
+.container3{
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   justify-content: flex-start;
   height:400px;
   width:400px;
-} */
+}
 /* images */
 
 .glow-list h3{
