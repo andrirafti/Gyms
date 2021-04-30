@@ -47,7 +47,7 @@ const ClientCreate=()=>{
         <label> Name:
         <input type="text" name="name" value={client.name} required onChange={handleChange} /></label>
         </div>
-        <div>
+        <div className="goal">
           <label> Goal:
           <input type="text" name="goal" value={client.goal} required onChange={handleChange} /> </label>
         </div>
