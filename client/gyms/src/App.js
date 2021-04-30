@@ -19,6 +19,7 @@ function App() {
   //Trainer from trainer.jsx already has trainershow inside of it so it will show everything we need.//
   return (
     <div className="App">
+      <div className="wrapper">
       <Nav/>
       <Switch>
         <Route exact path='/gyms/:gym_id/trainers/:trainer_id/clients/:id/edit'>
@@ -43,9 +44,10 @@ function App() {
       </Switch>
       <Route exact path='/'>
         <HomePage/>
-      </Route>
+        </Route>
+        </div>
       <Footer/>
-    </div>
+      </div>
   );
 }
 

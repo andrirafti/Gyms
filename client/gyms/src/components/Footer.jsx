@@ -7,7 +7,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 
 const Footer = () => {
   return (
-    <div className="wrapper">
+   
     <div className="footer">
       
       <a
@@ -21,7 +21,7 @@ const Footer = () => {
         </a>
       
       </div>
-      </div>
+     
      
   )
 }
