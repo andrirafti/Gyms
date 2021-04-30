@@ -119,6 +119,10 @@ body{
   height: auto !important;
   height: 100%;
   margin: 0 auto -60px;
+
+}
+body,html{
+  height:100%;
 }
 .footer{
   width: 100%;
