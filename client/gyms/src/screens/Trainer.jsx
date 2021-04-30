@@ -29,7 +29,7 @@ export default function Trainer() {
     //Look at link.. we use params.id to target the gym id using useparams //
   return (
     <>
-    <div className="gym-list">
+    <div className="gym-list2">
       <h1>Trainers</h1>
       <Link to={`/gyms/${id}/trainers/${queryTrainer[0].id}`}>
          {queryTrainer.map((trainer) => (
