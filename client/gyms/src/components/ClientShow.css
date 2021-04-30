@@ -124,7 +124,7 @@ transform: translate3d(-50%,-50%,0px) rotate(0deg);
     and (device-height: 844px) 
     and (-webkit-device-pixel-ratio: 3) {
       .container2 .box2{
-        margin:20px;
+        margin-left:20px;
         width: 80%;
         width:230px;
         height:260px;
