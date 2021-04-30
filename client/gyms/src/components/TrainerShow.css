@@ -29,7 +29,7 @@
   position: relative;
   width: 300px;
   height: 400px;
-  margin: 40px;
+  margin-bottom: 240px;
   background: #232323;
   border-radius: 20px;
   transform-style: preserve-3d;
@@ -137,8 +137,8 @@ transform: translate3d(-50%,-50%,0px) rotate(0deg)
 
 @media only screen and (max-width: 418px) {
   .container3 .box3{
-    margin:20px;
     width: 80%;
+    margin-bottom: 240px;
   }
   .container3 .box3::after{
     font-weight:700;
