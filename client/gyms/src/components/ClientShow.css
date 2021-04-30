@@ -119,10 +119,37 @@ transform-style: preserve-3d;
 transform: translate3d(-50%,-50%,0px) rotate(0deg);
 
 }
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) {
+      .container2 .box2{
+        margin:15px;
+      }
+      .container2 .box2::after{
+        font-weight:700;
+        font-size: 4em;
+        bottom: 20px;
+      right:20px;
+      }
+      .container2 .box2::before{
+        font-weight:700;
+        font-size: 4em;
+        top:20px;
+        left:10px;
+      }
+}
 
-@media only screen and (max-width: 418px) {
+@media only screen and (max-width: 365px) {
+  .container2{
+    width:100%;
+    width:220px;
+    margin-left: 20px;
+  }
   .container2 .box2{
     margin:15px;
+    width: 90%;
+    width:170px
   }
   .container2 .box2::after{
     font-weight:700;
