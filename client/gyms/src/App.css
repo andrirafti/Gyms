@@ -114,14 +114,20 @@ body{
     min-height: 100%;
     position:absolute;
 }
+.wrapper{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -142px;
+}
 .footer{
   width: 100%;
-  padding: 10px 0;
-  margin: auto;
-  height:35px;
- bottom:0px;
+  
+ 
+  height:142px;
+
   opacity: 0.6;
-  position: fixed;
+  
   background-color: #00FFCB;
   color: white;
   font-family: 'IBM Plex Sans', sans-serif;

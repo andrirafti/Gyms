@@ -7,6 +7,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 
 const Footer = () => {
   return (
+    <div className="wrapper">
     <div className="footer">
       
       <a
@@ -19,6 +20,7 @@ const Footer = () => {
           <i id="icon" className="fa fa-linkedin" aria-hidden="true"></i>
         </a>
       
+      </div>
       </div>
      
   )
