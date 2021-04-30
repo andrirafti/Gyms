@@ -29,10 +29,10 @@ export default function Trainer() {
     //Look at link.. we use params.id to target the gym id using useparams //
   return (
     <>
-    <div className="gym-list">
+    <div className="gym-list2">
       <h1>Trainers</h1>
       <Link to={`/gyms/${id}/trainers/${queryTrainer[0].id}`}>
-        <div className="gym-list2">
+        <div className="gym-list">
          {queryTrainer.map((trainer) => (
            <React.Fragment key={trainer.id}>
               <TrainerShow //name,address,slogan is what its named  EXACTLY in the backend for my GYM model inside of schema
