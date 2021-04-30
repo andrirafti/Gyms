@@ -4,7 +4,7 @@
   margin-bottom: 332px;
 }
 @media only screen 
-    and (max-device-width: 390px) 
+    and (max-device-width: 414px) 
     and (max-device-height: 904px) 
     and (-webkit-device-pixel-ratio: 3) {
  .HomePage{
