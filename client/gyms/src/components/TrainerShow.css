@@ -138,7 +138,7 @@ transform: translate3d(-50%,-50%,0px) rotate(0deg)
 @media only screen and (max-width: 418px) {
   .container3 .box3{
     margin:20px;
-    width: 40%;
+    width: 80%;
   }
   .container3 .box3::after{
     font-weight:700;

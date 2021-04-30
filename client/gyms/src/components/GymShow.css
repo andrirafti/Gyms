@@ -133,10 +133,10 @@ transform-style: preserve-3d;
 transform: translate3d(-50%,-50%,0px) rotate(0deg)
 }
 
-@media only screen and (max-width: 418px) {
+@media only screen and (max-width: 428px) {
   .container .box{
     margin:15px;
-    width: 40%;
+    width: 80%;
 
   }
   .container .box::after{
