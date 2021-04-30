@@ -118,6 +118,7 @@ opacity: 0.5;
   transform:translate3d(-50%,-50%,50px)
 
 }
+
 .container3 .box3 .product{
 position: absolute;
 top:50%;
@@ -133,6 +134,9 @@ z-index: 11;
 transition: 0.5s;
 transform-style: preserve-3d;
 transform: translate3d(-50%,-50%,0px) rotate(0deg)
+}
+.container3 .box3 .product:hover{
+  transform: scale(1.2);
 }
 
 @media only screen and (max-width: 418px) {
