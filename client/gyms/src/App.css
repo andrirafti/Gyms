@@ -151,6 +151,7 @@ body,html{
 .footer-link:hover{
   color:white
 }
+/*  This makes is so only the cotainers are clickable  and not the whole screen*/
 .container{
   display: flex;
   min-height: 100vh;
