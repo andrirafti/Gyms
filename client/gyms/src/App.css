@@ -176,9 +176,15 @@ body{
   .card{
     margin:0px;
   }
-
-  
-  }
+}
+@media only screen 
+  and (device-width: 390px) 
+  and (device-height: 844px) 
+  and (-webkit-device-pixel-ratio: 3) {
+.card{
+ width: auto;
+}
+}
 .card img{
   width: 300px;
 }
