@@ -184,6 +184,9 @@ body{
 .card{
  width: auto;
 }
+.card div{
+  margin-bottom: 50px;
+}
 }
 .card img{
   width: 300px;
