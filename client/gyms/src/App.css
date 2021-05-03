@@ -19,6 +19,7 @@ body{
   flex-wrap: wrap;
  background-color:#00FFCB;
   /* padding: 10px 20px; */
+  text-decoration: none;
   padding-bottom: -30px;
   opacity: 0.8;
   margin-bottom: 20px;
