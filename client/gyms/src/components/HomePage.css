@@ -1,12 +1,12 @@
 .HomePage{
-  /* margin:auto; */
+  margin:auto;
   width:45%;
-  /* margin-bottom: 332px; */
+  margin-bottom: 332px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   position: relative;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   margin-top: 30px;
   align-items: center
 }
